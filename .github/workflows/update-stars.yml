@@ -24,9 +24,9 @@ jobs:
         run: |
           set -euo pipefail
           REPOS=(
-            "PKU-VaLuE-Lab/m3eval"
-            "Jie-1203/ADWM"
-            "Jie-1203/WFANet"
+            "ZiyuGuo99/Image-Generation-CoT"
+            "evolvent-ai/ClawMark"
+            "univa-agent/univa"
           )
           mkdir -p out
           echo '{' > out/stars.json
