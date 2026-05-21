@@ -762,8 +762,8 @@
       <div class="bio-text">
         <h1>Jie Huang</h1>
         <div class="role-title">
-          <b>Researcher in Multimodal Evaluation and Remote Sensing</b><br>
-          University of Electronic Science and Technology of China <span class="muted">&middot; Chengdu</span>
+          <b>B.Eng. Student in Computer Science</b><br>
+          <a href="https://www.yingcai.uestc.edu.cn/" target="_blank" rel="noopener">Yingcai Honor College</a>, University of Electronic Science and Technology of China
         </div>
 
         <div class="contact-info">
@@ -771,15 +771,8 @@
         </div>
 
         <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=uJUmglMRMVMC&hl=zh-CN" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
           <a href="https://github.com/Jie-1203" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://github.com/PKU-VaLuE-Lab/m3eval" target="_blank" rel="noopener"><i class="fas fa-film"></i> M3Eval</a>
-          <a href="https://github.com/Jie-1203/WFANet" target="_blank" rel="noopener"><i class="fas fa-satellite"></i> WFANet</a>
-          <a href="https://github.com/Jie-1203/ADWM" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i> ADWM</a>
-        </div>
-
-        <div class="highlight-box">
-          <i class="fas fa-compass"></i>
-          Recent work spans <b>multimodal memory evaluation for long-form video</b> and <b>remote-sensing image fusion</b>.
         </div>
       </div>
 
@@ -794,9 +787,9 @@
     <!-- ============ Biography ============ -->
     <section>
       <h2 id="biography" class="section-title">Biography</h2>
-      <p>I am Jie Huang, based in Chengdu and publicly affiliated with <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">UESTC</a>. My recent work focuses on <strong>multimodal memory evaluation</strong>, <strong>video understanding benchmarks</strong>, and <strong>remote-sensing image fusion</strong>.</p>
+      <p>I am a third-year undergraduate student in the <a href="https://www.yingcai.uestc.edu.cn/" target="_blank" rel="noopener">Yingcai Honor College</a> at <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">UESTC</a> (2023&ndash;2027), majoring in Mathematics-Physics Fundamental Science. I am currently a research intern at <strong>PKU-VaLuE-Lab</strong>, working with <a href="https://yiwuzhong.notion.site/homepage" target="_blank" rel="noopener">Yiwu Zhong</a>. My research interests are <strong>Multi-Modal LLMs</strong>, <strong>Agentic AI</strong>, <strong>Embodied AI</strong> and <strong>Psychology</strong>. Earlier, I also worked on diffusion model and remote-sensing image fusion.</p>
 
-      <p>This homepage is a lightweight hub for the papers, codebases, and benchmark releases I maintain or contribute to on GitHub. If you want to discuss research, code, or reproducibility details, feel free to reach out by <a href="mailto:jayhuang303hh@gmail.com">email</a>.</p>
+      <p>👋 If you're interested in my research or just want to chat, feel free to reach out by <a href="mailto:jayhuang303hh@gmail.com">email</a> or <button type="button" class="wechat-btn" onclick="document.getElementById('wechat-modal').showModal()">WeChat</button>.</p>
     </section>
 
     <!-- ============ News ============ -->
@@ -936,6 +929,11 @@
       <p>&copy; <span id="year"></span> Jie Huang &middot; Hosted on GitHub Pages &middot; Adapted from <a href="https://github.com/RuiHuangAI/RuiHuangAI.github.io" target="_blank" rel="noopener">RuiHuangAI.github.io</a>.</p>
     </footer>
 
+    <dialog id="wechat-modal" class="wechat-modal" aria-label="WeChat QR code">
+      <button type="button" class="modal-close" onclick="this.closest('dialog').close()" aria-label="Close">&times;</button>
+      <img src="images/wechat.jpg" alt="WeChat QR code" class="qr-card">
+    </dialog>
+
   </div>
 
   <script>
@@ -978,6 +976,17 @@
           .catch(function () { tryNext(i + 1); });
       };
       tryNext(0);
+    })();
+
+    (function setupModalBackdropClose() {
+      var modal = document.getElementById('wechat-modal');
+      if (!modal) return;
+      modal.addEventListener('click', function (e) {
+        var rect = modal.getBoundingClientRect();
+        var inside = e.clientX >= rect.left && e.clientX <= rect.right &&
+                     e.clientY >= rect.top && e.clientY <= rect.bottom;
+        if (!inside) modal.close();
+      });
     })();
 
   </script>
