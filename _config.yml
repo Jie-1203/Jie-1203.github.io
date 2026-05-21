@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Rui Huang"
-description              : "University of Electronic Science and Technology of China. "
-repository               : "RuiHuangAI/RuiHuangAI.github.io"
+title                    : "Jie Huang"
+description              : "Multimodal memory evaluation, video understanding, and remote-sensing image fusion."
+repository               : "Jie-1203/Jie-1203.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Rui Huang"
-  avatar           : "images/RuiHuang.png"
-  bio              : "Undergraduate Student"
-  location         : 
-  employer         :
+  name             : "Jie Huang"
+  avatar           : "images/jie-huang-avatar.jpg"
+  bio              : "Researcher in multimodal evaluation and remote sensing"
+  location         : "Chengdu"
+  employer         : "University of Electronic Science and Technology of China"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=Bdam5iQAAAAJ"
-  email            : "huang_rui@std.uestc.edu.cn"
+  googlescholar    :
+  email            : "jayhuang303hh@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : RuiHuangAI
+  github           : Jie-1203
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : 锐-黄-b48275349
+  linkedin         :
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : https://orcid.org/0009-0004-1646-1466
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
