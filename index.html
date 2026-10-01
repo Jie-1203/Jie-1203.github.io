@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jie Huang | UESTC</title>
-  <meta name="description" content="Jie Huang — research projects on multimodal memory evaluation, video understanding, and remote-sensing image fusion.">
+  <title>Jie Huang (黄洁)</title>
+  <meta name="description" content="Jie Huang (黄洁), incoming Ph.D. student at SJTU and BIGAI and member of the PKU-VaLuE Lab. Research on embodied AI, recursive self-improvement, and agentic AI.">
 
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=20260521">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=20260521">
@@ -158,6 +158,17 @@
       margin: 0 0 10px 0;
       letter-spacing: -0.5px;
       line-height: 1.1;
+    }
+
+    .name-zh {
+      display: inline-block;
+      margin-left: 0.4em;
+      font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      font-size: 0.58em;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      vertical-align: 0.08em;
+      white-space: nowrap;
     }
 
     .role-title {
@@ -575,6 +586,10 @@
       transition: transform 0.2s;
       background: var(--bg-elev);
     }
+    .publogo-overview {
+      object-fit: contain;
+      background: #ffffff;
+    }
     .publication:hover .publogo {
       transform: scale(1.02);
     }
@@ -760,10 +775,11 @@
     <!-- ============ Header ============ -->
     <header class="profile-header">
       <div class="bio-text">
-        <h1>Jie Huang</h1>
+        <h1>Jie Huang<span class="name-zh" lang="zh-CN">黄洁</span></h1>
         <div class="role-title">
-          <b>B.Eng. Student in Mathematics-Physics Fundamental Science</b><br>
-          Yingcai Honor College, University of Electronic Science and Technology of China
+          <b>Incoming Ph.D. Student &middot; Fall 2027</b><br>
+          Member of <a href="https://github.com/PKU-VaLuE-Lab" target="_blank" rel="noopener"><b>PKU-VaLuE Lab</b></a><br>
+          Advised by <a href="https://yiwuzhong.notion.site/homepage" target="_blank" rel="noopener">Prof. Yiwu Zhong</a>, <a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>
         </div>
 
         <div class="contact-info">
@@ -787,7 +803,9 @@
     <!-- ============ Biography ============ -->
     <section>
       <h2 id="biography" class="section-title">Biography</h2>
-      <p>I am a fourth-year undergraduate student in the <a href="https://www.yingcai.uestc.edu.cn/" target="_blank" rel="noopener">Yingcai Honor College</a> at <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">UESTC</a> (2023&ndash;2027), majoring in Mathematics-Physics Fundamental Science. I am currently a research intern at <strong>PKU-VaLuE-Lab</strong>, working with <a href="https://yiwuzhong.notion.site/homepage" target="_blank" rel="noopener">Yiwu Zhong</a>. My research interests are <strong>Multi-Modal LLMs</strong>, <strong>Agentic AI</strong>, <strong>Embodied AI</strong> and <strong>Psychology</strong>. Earlier, I also worked on diffusion model and remote-sensing image fusion.</p>
+      <p>I am an incoming Ph.D. student at <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener"><strong>SJTU</strong></a> and <a href="https://www.bigai.ai/" target="_blank" rel="noopener"><strong>BIGAI</strong></a>, and a member of the <a href="https://github.com/PKU-VaLuE-Lab" target="_blank" rel="noopener"><strong>PKU-VaLuE Lab</strong></a>, advised by <a href="https://yiwuzhong.notion.site/homepage" target="_blank" rel="noopener">Prof. Yiwu Zhong</a> at <a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>. My current research focuses on <strong>Embodied AI</strong>, <strong>Recursive Self-Improvement</strong>, and <strong>Agentic AI</strong>. Earlier, I also worked on diffusion models, remote-sensing image fusion, and psychology.</p>
+
+      <p>I am also a fourth-year undergraduate student in the <a href="https://www.yingcai.uestc.edu.cn/" target="_blank" rel="noopener">Yingcai Honor College</a> at <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">UESTC</a> (2023&ndash;2027), majoring in Mathematics-Physics Fundamental Science. I am the <strong>founder of <a href="#services">UESTC AI Club</a></strong>.</p>
 
       <p>👋 If you're interested in my research or just want to chat, feel free to reach out by <a href="mailto:jayhuang303hh@gmail.com">email</a> or <button type="button" class="wechat-btn" onclick="document.getElementById('wechat-modal').showModal()">WeChat</button>.</p>
     </section>
@@ -797,6 +815,7 @@
       <h2 id="news" class="section-title">News</h2>
       <div class="news-scroll" tabindex="0" aria-label="News, scrollable list">
         <ul class="news-list">
+          <li><span class="news-date">2026-10-XX</span> Released <a href="https://pku-value-lab.github.io/EmbodiedCLBench-homepage/" target="_blank" rel="noopener"><strong>EmbodiedCLBench</strong></a>, a benchmark in embodied simulation for evaluating the continual learning capability of self-evolving agents, together with the <a href="https://github.com/PKU-VaLuE-Lab/EmbodiedCLBench" target="_blank" rel="noopener">code</a> and <a href="https://huggingface.co/datasets/PKU-VaLuE-Lab/EmbodiedCLBench" target="_blank" rel="noopener">dataset</a>.</li>
           <li><span class="news-date">2026/05/21</span> Released <a href="https://pku-value-lab.github.io/m3eval-homepage/" target="_blank" rel="noopener"><strong>M&sup3;Eval</strong></a>, a benchmark for multimodal memory in long-form video, together with the <a href="https://github.com/PKU-VaLuE-Lab/m3eval" target="_blank" rel="noopener">code</a> and <a href="https://huggingface.co/datasets/JadeHuang/m3eval" target="_blank" rel="noopener">dataset</a>.</li>
           <li><span class="news-date">2025/04/19</span> Released code and weights for <a href="https://github.com/Jie-1203/ADWM" target="_blank" rel="noopener"><strong>ADWM</strong></a>, a general adaptive dual-level weighting mechanism for pansharpening.</li>
           <li><span class="news-date">2025/02/07</span> Released the <a href="https://github.com/Jie-1203/WFANet" target="_blank" rel="noopener"><strong>WFANet</strong></a> codebase for wavelet-assisted multi-frequency attention in pansharpening.</li>
@@ -855,6 +874,20 @@
     <section>
       <h2 id="publications" class="section-title">Selected Publications</h2>
       <p class="pub-caption">(* equal contribution &nbsp;&middot;&nbsp; &dagger; corresponding author) &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=uJUmglMRMVMC&hl=zh-CN" target="_blank" rel="noopener">Full list on Google Scholar</a></p>
+
+      <div class="publication">
+        <img src="images/embodiedclbench-overview.png" class="publogo publogo-overview" alt="EmbodiedCLBench overview: learning basic skills and composing them to solve advanced tasks" width="2778" height="1191" loading="lazy">
+        <div class="pub-content">
+          <a class="pub-title" href="https://pku-value-lab.github.io/EmbodiedCLBench-homepage/" target="_blank" rel="noopener">EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents</a>
+          <div class="pub-venue venue-preprint">arXiv 2026</div>
+          <div class="pub-authors"><b>Jie Huang*</b>, Yanan Chen*, Ruixun Liu*, Kaichen He, Xinyi He, Rui Huang, Zilong Zheng, Zhenliang Zhang, Yiwu Zhong&dagger;</div>
+          <div class="pub-links">
+            <a href="https://pku-value-lab.github.io/EmbodiedCLBench-homepage/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Project Page</a>
+            <a href="https://github.com/PKU-VaLuE-Lab/EmbodiedCLBench" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            <a href="https://huggingface.co/datasets/PKU-VaLuE-Lab/EmbodiedCLBench" target="_blank" rel="noopener"><i class="fas fa-database"></i> Dataset</a>
+          </div>
+        </div>
+      </div>
 
       <div class="publication">
         <img src="images/m3eval-overview.png" class="publogo" alt="M3Eval overview" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=M3Eval'">
